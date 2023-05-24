@@ -1,0 +1,10 @@
+@import "@/app/style/global";
+
+.sidebar {
+  height: calc(100vh - var(--navbar-height));
+  width: 300px;
+}
+
+.collapsed {
+  background-color: #fff;
+}

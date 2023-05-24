@@ -1,0 +1,17 @@
+@import "@/app/style/global";
+.navbar {
+  background-color: darkblue;
+  width: 100%;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.links {
+  & a {
+    margin-right: 15px;
+  }
+
+  margin-left: auto;
+}
