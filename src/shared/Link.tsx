@@ -7,7 +7,7 @@ import React from "react";
 export const Link: React.FC<LinkProps> = (props) => {
   return (
     <MuiLink
-      className={cls.AppLink}
+      className={cls.app_link}
       component={ReactRouterLink}
       to={props.href ?? "#"}
       {...props}

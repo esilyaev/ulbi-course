@@ -10,7 +10,7 @@ export const Root: React.FC = () => {
       <Navbar />
       <div className="content-page">
         <Sidebar />
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1, p: 2 }}>
           <Outlet />
         </Box>
       </div>
