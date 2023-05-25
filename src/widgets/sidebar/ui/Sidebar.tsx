@@ -1,6 +1,6 @@
 import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import { Button, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import React, { useState } from "react";
 import cls from "./Sidebar.module.scss";
 
